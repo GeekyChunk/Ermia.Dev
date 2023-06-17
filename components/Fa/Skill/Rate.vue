@@ -19,11 +19,11 @@ const style = computed(() => {
 
 const text = computed(() => {
     const content = {
-        great: "Great",
-        verygood: "Very good",
-        fluent: "Fluent",
-        good: "Good",
-        improving: "Improving",
+        great: "عالی",
+        verygood: "بسیار خوب",
+        fluent: "وارد",
+        good: "خوب",
+        improving: "درحال ارتقا",
     };
     return content[props.rate];
 })
