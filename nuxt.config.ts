@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       script: [
-        { src: '/vendors/preline.js', body: true, defer: true }
+        { src: '/vendors/preline.js', body: true }
       ]
     }
   },
