@@ -122,7 +122,7 @@ const onNaviagate = event => {
                 <div class="py-8 flex justify-center gap-4">
                     <SocialLink color="rose" name="Email" avatar="/logos/email.png" link="ermia1303@gmail.com" />
                     <SocialLink color="indigo" name="LinkedIn" avatar="/logos/linkedin.png" :islink="true" link="https://www.linkedin.com/in/ermia-moghadamy-40b074217/" />
-                    <SocialLink color="slate" name="Github" avatar="/logos/github.png" :islink="true" link="https://www.linkedin.com/in/ermia-moghadamy-40b074217/" />
+                    <SocialLink color="slate" name="Github" avatar="/logos/github.png" :islink="true" link="https://github.com/GeekyChunk/" />
                     <SocialLink color="orange" name="Reddit" avatar="/logos/reddit.jpg" :islink="true" link="https://www.reddit.com/user/Ermia_codev" />
                     <SocialLink color="blue" name="Twitter" avatar="/logos/twitter.png" :islink="true" link="https://twitter.com/Ermia_Codev" />
                     <SocialLink color="blue" name="Telegram" avatar="/logos/telegram.png" :islink="true" link="https://MakaveliDon619.t.me" />

@@ -124,7 +124,7 @@ const onNaviagate = event => {
                 <div class="py-8 flex justify-center gap-4">
                     <FaSocialLink label="ایمیل" color="rose" name="Email" avatar="/logos/email.png" link="ermia1303@gmail.com" />
                     <FaSocialLink label="لینکدین" color="indigo" name="LinkedIn" avatar="/logos/linkedin.png" :islink="true" link="https://www.linkedin.com/in/ermia-moghadamy-40b074217/" />
-                    <FaSocialLink label="گیت هاب" color="slate" name="Github" avatar="/logos/github.png" :islink="true" link="https://www.linkedin.com/in/ermia-moghadamy-40b074217/" />
+                    <FaSocialLink label="گیت هاب" color="slate" name="Github" avatar="/logos/github.png" :islink="true" link="https://github.com/GeekyChunk/" />
                     <FaSocialLink label="ردیت" color="orange" name="Reddit" avatar="/logos/reddit.jpg" :islink="true" link="https://www.reddit.com/user/Ermia_codev" />
                     <FaSocialLink label="تویتر" color="blue" name="Twitter" avatar="/logos/twitter.png" :islink="true" link="https://twitter.com/Ermia_Codev" />
                     <FaSocialLink label="تلگرام" color="blue" name="Telegram" avatar="/logos/telegram.png" :islink="true" link="https://MakaveliDon619.t.me" />
