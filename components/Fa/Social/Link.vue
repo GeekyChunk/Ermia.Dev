@@ -5,7 +5,7 @@ const props = defineProps<{
     avatar: string;
     islink?: boolean;
     link: string;
-    color: "blue" | "green" | "slate" | "orange" | "indigo" | "rose";
+    color: "blue" | "green" | "slate" | "orange" | "indigo" | "rose" | "amber" | "purple";
 }>();
 
 const styles = computed(() => {
@@ -16,7 +16,9 @@ const styles = computed(() => {
         green: "bg-green-500 hover:bg-green-600 focus:ring-green-500",
         slate: "bg-slate-600 hover:bg-slate-700 focus:ring-slate-600",
         orange: "bg-orange-500 hover:bg-orange-600 focus:ring-orange-500",
-        rose: "bg-rose-500 hover:bg-rose-600 focus:ring-rose-500"
+        rose: "bg-rose-500 hover:bg-rose-600 focus:ring-rose-500",
+        amber: "bg-amber-500 hover:bg-amber-600 focus:ring-amber-500",
+        purple: "bg-purple-500 hover:bg-purple-600 focus:ring-purple-500"
     }
     return base + styls[props.color]
 })

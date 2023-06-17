@@ -127,7 +127,7 @@ const onNaviagate = event => {
                     <FaSocialLink label="گیت هاب" color="slate" name="Github" avatar="/logos/github.png" :islink="true" link="https://github.com/GeekyChunk/" />
                     <FaSocialLink label="ردیت" color="orange" name="Reddit" avatar="/logos/reddit.jpg" :islink="true" link="https://www.reddit.com/user/Ermia_codev" />
                     <FaSocialLink label="تویتر" color="blue" name="Twitter" avatar="/logos/twitter.png" :islink="true" link="https://twitter.com/Ermia_Codev" />
-                    <FaSocialLink label="تلگرام" color="blue" name="Telegram" avatar="/logos/telegram.png" :islink="true" link="https://MakaveliDon619.t.me" />
+                    <FaSocialLink label="تلگرام" color="purple" name="Telegram" avatar="/logos/telegram.png" :islink="true" link="https://MakaveliDon619.t.me" />
                     <FaSocialLink label="استک اورفلو" color="orange" name="StackOverflow" avatar="/logos/stack.png" :islink="true" link="https://stackoverflow.com/users/15701892/" />
                 </div>
             </div>
