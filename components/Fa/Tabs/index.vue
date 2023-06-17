@@ -22,11 +22,6 @@ const select = (n) => {
                 id="segment-item-2" data-hs-tab="#segment-2" aria-controls="segment-2" role="tab">
                 مهارت ها
             </button>
-            <button @click="$event => select(2)" type="button"
-                class="hs-tab-active:bg-white hs-tab-active:text-gray-700 py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm text-gray-500 hover:text-gray-700 font-medium rounded-md hover:hover:text-blue-600"
-                id="segment-item-3" data-hs-tab="#segment-3" aria-controls="segment-3" role="tab">
-                استک
-            </button>
             <button @click="$event => select(3)" type="button"
                 class="hs-tab-active:bg-white hs-tab-active:text-gray-700 py-3 px-4 inline-flex items-center gap-2 bg-transparent text-sm text-gray-500 hover:text-gray-700 font-medium rounded-md hover:hover:text-blue-600"
                 id="segment-item-3" data-hs-tab="#segment-3" aria-controls="segment-3" role="tab">

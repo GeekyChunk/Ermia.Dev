@@ -48,7 +48,7 @@ const onNaviagate = event => {
         <div id="header" class="relative w-full px-2 py-14 bg-slate-200 flex justify-center shadow-md">
             <div class="absolute top-0 bottom-0 start-0 end-0 flex justify-center items-center">
                 <div
-                    class="-z-0 h-[90%] md:h-64 w-[85%] lg:w-[45%] rounded-full bg-gradient-to-tr from-indigo-700 via-emerald-300 to-violet-100 blur-2xl opacity-60">
+                    class="-z-0 h-[90%] md:h-64 w-[85%] lg:w-[45%] rounded-full bg-gradient-to-tr from-violet-100 via-emerald-300 to-violet-700 blur-2xl opacity-60">
                 </div>
             </div>
             <div class="z-50 w-full max-w-2xl flex flex-col sm:flex-row justify-center items-center sm:items-stretch gap-6">
@@ -85,7 +85,7 @@ const onNaviagate = event => {
                         </svg>
 
                         <div class="relative z-10">
-                            <p class="text-gray-800 sm:text-2xl font-medium text-center sm:text-start"><em>
+                            <p class="text-gray-800 text-xl sm:text-2xl font-medium text-center sm:text-start"><em>
                                     ارمیا مقدمی هستم توسعه دهنده وب 💻, مدیر سیستم 🔧 و دوآپس ♾️.
                                     <br /> طرفدار لینوکس 🐧 و متن باز <span>
                                         <svg class="w-8 h-8 inline" id="emoji" viewBox="0 0 72 72"
@@ -116,12 +116,12 @@ const onNaviagate = event => {
             </div>
             <div id="stacks" class="py-8">
                 <h1 class="text-center sm:text-start text-4xl font-semibold">📚 <span class="italic">استک ها</span></h1>
-                <div class="py-4 underline text-3xl">بزودی.</div>
+                <div class="text-center sm:text-start py-4 underline text-3xl">بزودی.</div>
             </div>
             <div id="contact" class="py-10">
                 <h1 class="text-center sm:text-start text-4xl font-semibold">📞 <span
                         class="italic underline">ارتباط</span></h1>
-                <div class="py-8 flex justify-center gap-4">
+                <div class="py-8 flex flex-wrap justify-center gap-4">
                     <FaSocialLink label="ایمیل" color="rose" name="Email" avatar="/logos/email.png" link="ermia1303@gmail.com" />
                     <FaSocialLink label="لینکدین" color="indigo" name="LinkedIn" avatar="/logos/linkedin.png" :islink="true" link="https://www.linkedin.com/in/ermia-moghadamy-40b074217/" />
                     <FaSocialLink label="گیت هاب" color="slate" name="Github" avatar="/logos/github.png" :islink="true" link="https://github.com/GeekyChunk/" />

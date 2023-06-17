@@ -57,7 +57,7 @@ const onNaviagate = event => {
                     <h1 class="text-center md:text-start text-4xl font-semibold">Ermia M.</h1>
                     <h3 class="text-center md:text-start text-3xl">Web Developer & DevOps</h3>
                     <div class="w-full">
-                        <div class="flex justify-center md:justify-start">
+                        <div class="flex justify-center md:justify-start px-4">
                             <Tabs @navigate="onNaviagate" />
                         </div>
                     </div>
@@ -83,7 +83,7 @@ const onNaviagate = event => {
                         </svg>
 
                         <div class="relative z-10">
-                            <p class="text-gray-800 sm:text-2xl font-medium text-center sm:text-start"><em>
+                            <p class="text-gray-800 text-xl sm:text-2xl font-medium text-center sm:text-start"><em>
                                     Hi I'm Ermia a Full-stack Developer 💻, System Admin 🔧 and DevOps ♾️.
                                     <br /> Also lover of linux 🐧 and opensource <span>
                                         <svg class="w-8 h-8 inline" id="emoji" viewBox="0 0 72 72"
@@ -114,12 +114,12 @@ const onNaviagate = event => {
             </div>
             <div id="stacks" class="py-8">
                 <h1 class="text-center sm:text-start text-4xl font-semibold">📚 <span class="italic">Stacks</span></h1>
-                <div class="py-4 underline text-3xl">comming soon.</div>
+                <div class="text-center sm:text-start py-4 underline text-3xl">comming soon.</div>
             </div>
             <div id="contact" class="py-10">
                 <h1 class="text-center sm:text-start text-4xl font-semibold">📞 <span
                         class="italic underline">Contact</span></h1>
-                <div class="py-8 flex justify-center gap-4">
+                <div class="py-8 flex flex-wrap justify-center gap-4">
                     <SocialLink color="rose" name="Email" avatar="/logos/email.png" link="ermia1303@gmail.com" />
                     <SocialLink color="indigo" name="LinkedIn" avatar="/logos/linkedin.png" :islink="true" link="https://www.linkedin.com/in/ermia-moghadamy-40b074217/" />
                     <SocialLink color="slate" name="Github" avatar="/logos/github.png" :islink="true" link="https://github.com/GeekyChunk/" />
