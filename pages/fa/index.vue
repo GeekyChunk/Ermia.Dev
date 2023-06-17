@@ -21,7 +21,7 @@ const sec_skills = [
 const onNaviagate = event => {
     if (event == 0) {
         const bio = document.getElementById("bio");
-        bio.scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });
+        bio.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
     } else if (event == 1) {
         const skills = document.getElementById("skills");
         skills.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
