@@ -51,7 +51,7 @@ const onNaviagate = event => {
             </div>
             <div class="z-50 w-full max-w-2xl flex flex-col sm:flex-row justify-center items-center sm:items-stretch gap-6">
                 <div class="">
-                    <img class="max-h-[12rem] w-auto rounded-full shadow-lg" src="/ermia.jpg" alt="Ermia Moghadamy">
+                    <img class="max-h-[12rem] w-auto rounded-full shadow-lg" src="/ermia.png" alt="Ermia Moghadamy">
                 </div>
                 <div class="flex-grow flex flex-col gap-4 justify-center">
                     <h1 class="text-center md:text-start text-4xl font-semibold">Ermia M.</h1>
